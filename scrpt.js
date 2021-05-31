@@ -12,7 +12,7 @@ function createListElement(){
     ul.appendChild(li);
     input.value="";
     var btn=document.createElement("button");
-    btn.append(document.createTextNode("   Delete"));
+    btn.append(document.createTextNode("Delete"));
     li.appendChild(btn);
     btn.onclick=removeParent;
 }
